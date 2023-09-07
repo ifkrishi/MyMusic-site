@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music Website</title>
+    <link rel="stylesheet" href="./styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <div class="navbar">
+            <img src="./media/logo.png" alt="logo-img">
+            <ul>
+                <li><a href="#">HOME</a></li>
+                <li><a href="#">ABOUT</a></li>
+                <li><a href="#">SPECIFICATIONS</a></li>
+                <li><a href="#">PRODUCTS</a></li>
+                <li><a href="#">CONNECT</a></li>
+            </ul>
+        </div>
+        <div class="content">
+            <div class="left-columns">
+                <h1>THE REAL SOUND</h1>
+            </div>
+            <div class="right-columns">
+                <p>CLICK HERE TO LISTEN</p>
+                <a href="#"><img id="play-pause-btn" src="./media/play.png"></a>
+            </div>
+        </div>
+    </div>
+    <Audio id="mySong">
+        <source src="./media/senorita.mp3" type="audio/mp3">
+    </Audio>
+    <script src="./index.js"></script>
+</body>
+</html>
